@@ -44,14 +44,6 @@
   }
 }
 
-/* h2 {
-  color: #fff;
-  font-family: 'freight-big-pro';
-  font-size: 50px;
-  font-weight: normal;
-  letter-spacing: -6.5px;
-  overflow-wrap: break-world;
-}
 
 /* Pop-up Video Style */
 h1 {
@@ -101,10 +93,7 @@ h1 em {
     height: 5px;
   background-color:#f8f8f8;
 }
- */
-
-
-
+ 
 
 /* Style for video Gallery */
 
@@ -121,12 +110,12 @@ body {
   margin: 0;
 }
 .wrapper {
-  /* background: radial-gradient(#272727, #1b1b1b); */
+  
   display: grid;
   grid-template-areas: 'overlap';
   place-content: center;
   text-transform: uppercase;
-  /* height: 100vh; */
+  
 }
 .wrapper > div {
   background-clip: text;  
@@ -160,84 +149,6 @@ div.fg{
 
 
 
-
-/* For image card */
-
-/* video{
-	display: block;
-	max-width: 100%;
-}
-
-.stack {
-	width: 85%;
-	max-width: 400px;
-	transition: .25s ease;
-	&:hover {			
-		transform: rotate(5deg);
-		.card:before {
-			transform: translatey(-2%) rotate(-4deg);
-		}	
-		.card:after {
-			transform: translatey(2%) rotate(4deg);
-		}
-	}
-}
-
-.card {
-	aspect-ratio: 3 / 2;
-	border: 4px solid;
-	background-color: #FFF;
-	position: relative;
-	transition: .15s ease;
-	cursor: pointer;
-	padding: 5% 5% 15% 5%;
-	&:before, &:after {
-		content: "";
-		display: block;
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		border: 4px solid;
-		background-color: #FFF;
-		transform-origin: center center;
-		z-index: -1;
-		transition: .15s ease;
-		top: 0;
-		left: 0;
-	}
-	
-	&:before {
-		transform: translatey(-2%) rotate(-6deg);
-	}
-	
-	&:after {
-		transform: translatey(2%) rotate(6deg);
-	}
-	
-
-	
-}
-	.image {
-		width: 100%;
-		border: 4px solid;
-		background-color: #EEE;
-		aspect-ratio: 1 / 1;
-		position: relative;
-	}
-
-.browser-warning {
-	margin-bottom: 4rem;
-}
-
-@supports (aspect-ratio: 1 / 1) {
-	.browser-warning {
-		display: none;
-	}
-} */
-
-
-
-
 “Segoe UI”,
 Roboto,
 Helvetica,
@@ -255,7 +166,7 @@ body {
   padding: 0 10px;
   box-sizing: border-box;
   height: 100vh;
-  /* background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%); */
+
   background-image: linear-gradient(-20deg, #6948d6 0%, #30100e 100%, #2b0503 100%);
 }
 .menu__container {
